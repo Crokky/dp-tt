@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "./src/Entity/BaseType.tsx",
+      "./src/Entity/CommonToken.tsx",
+      "./src/Entity/Named.tsx",
+      "./src/Entity/ReturnedEntity.tsx",
+      "./src/Entity/STLCToken.tsx",
+
+      "./src/EvRules/CommonEvRules.tsx",
+      "./src/EvRules/STLCEvRules.tsx",
+
+      "./src/Pages/CommonPage.tsx",
+      "./src/Pages/MainPage.tsx",
+      "./src/Pages/STLCPage.tsx",
+
+      "./src/Styles/Styles.css",
+      "./src/Styles/Styles.tsx",
+
+      "./src/Utils/Utils.tsx",
+      
+      "./src/VisualComponents/CommonKeyboard.tsx",      
+      "./src/VisualComponents/Props.tsx",      
+      "./src/VisualComponents/STLCKeyboard.tsx",
+      "./src/VisualComponents/TableVariables.tsx",
+      "./src/VisualComponents/VarTypeDialog.tsx",
+
+      "./src/App.tsx",      
+      "./src/Index.tsx",  
+    ],
+    "out": "docs",
+    "excludePrivate": "false"
+  }
+}
